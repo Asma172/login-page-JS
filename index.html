@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <form action="" class="form">
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" class="box" id="userName" required>
+        <input type="password" placeholder="Password" class="box" id="password" required>
+        <img src="imgs/close eye.png" id="closeEye">
+        <p id="para">Weak Password</p>
+        <h4>Forgot password?</h4>
+
+
+        <ul class="list">
+
+            <li id="char"> <i class="fa-solid fa-circle"></i> Contain 8 character or more</li>
+            <li id="upletter"> <i class="fa-solid fa-circle"></i> Contain Uppercase letter</li>
+            <li id="symbol"> <i class="fa-solid fa-circle"></i> Contain at least one symbol</li>
+        </ul>
+
+        <input type="submit" value="Login" id="submit">
+
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

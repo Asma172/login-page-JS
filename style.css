@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, rgb(101, 84, 84));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+        
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 550px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 40px rgb(255, 255, 255, 0.8);
+    transition: box-shadow 0.3s ease;
+}
+.form h2{
+    color: rgb(101, 84, 84);
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 0 0 12px 12px;
+    width: 400px; 
+    margin: 50px;
+    margin-top: 0;
+    text-align: center;
+}
+.box{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font: bold;
+    transition: 0.5s;
+}
+#submit{
+    position: absolute;
+    bottom: 150px;
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.box:hover{
+    cursor: pointer;
+
+}
+.box:hover::placeholder{
+    letter-spacing: 2px;
+}
+#submit:hover{
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+#closeEye{
+    position: relative;
+    bottom: 53px;
+    left: 160px;
+}
+.form h4{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+    left: 120px;
+}
+
+.form h4:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.list{
+    position: relative;
+    bottom: 10px;
+    right: 70px;
+    color: white;
+    font-size: 18px;
+    
+    
+    
+}
+.list li{
+    margin: 15px 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.list li i{
+    font-size: 8px;
+    color: #aaa;
+    width: 20px;
+
+}
+.strong{
+    color: green;
+}
+.weak{
+    color: red;
+}
+.medium{
+    color: yellow;
+}
+
+#para{
+    position: relative;
+    bottom: 30px;
+    right: 130px;
+    color: Red;
+    font-size: 18px;
+    display: none;
+}
